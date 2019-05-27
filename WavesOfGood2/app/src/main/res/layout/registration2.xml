@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".Registration2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Название организации"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextregistration"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextregistration"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttonregistration2"
+        android:padding="15sp"
+        android:text="Зарегистрироваться"
+
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Шаг 2 из 2"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+</LinearLayout>
